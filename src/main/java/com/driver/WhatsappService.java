@@ -14,7 +14,7 @@ public class WhatsappService {
         whatsappRepository.createUser(name, mobile);
         return "SUCCESS";
     }
-
+//second
     public Group createGroup(List<User> users) {
         return whatsappRepository.createGroup(users);
     }
